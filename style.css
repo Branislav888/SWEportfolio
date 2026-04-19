@@ -8,7 +8,7 @@ body {
     line-height: 1.6;
     color: #000;
     background: #fff;
-    
+
 }
 header {
     background: #111;
@@ -59,6 +59,26 @@ nav a:hover::after {
 .hero div {
     max-width: 450px;
 }
+#school {
+    text-align: center;
+    padding: 40px 20px;
+}
+.skolaKontajner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px; 
+    margin: 0 auto; 
+    gap: 40px; 
+}
+.skolaText {
+    text-align: left;
+    flex: 1;
+}
+.SPSITlogo img {
+    max-width: 300px;
+    height: auto;
+}
 section {
     padding: 50px 40px;
 }
@@ -84,6 +104,12 @@ h1, h2, h3 {
     max-width: 800px;
     background: #f3f3f3;
     border-radius: 12px;
+}
+.project1 {
+    width: 20px;
+    height: 10px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 .project a {
     flex-shrink: 0;
@@ -167,6 +193,15 @@ footer img {
     }
 
     .project p {
+        text-align: center;
+    }
+
+    .skolaKontajner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .skolaText {
         text-align: center;
     }
 }
